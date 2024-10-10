@@ -5,3 +5,5 @@ delve_env filter=lfs diff=lfs merge=lfs -text
 scraper.py filter=lfs diff=lfs merge=lfs -text
 certi.py filter=lfs diff=lfs merge=lfs -text
 flask.py filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+delve_env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.dylib filter=lfs diff=lfs merge=lfs -text
